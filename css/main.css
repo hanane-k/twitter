@@ -95,10 +95,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* ===========================comun class======================= */
 * {
     font-family: arial, sans-serif;
 }
-/*,,,,,,,,,,,,,,,,,,,,,,start header,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+.mot {
+    border: 1px solid lightgrey;
+    margin: 0% 1%;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 1%;
+}
+/*=======================start up-right main=========================*/
 .nassim {
     width: 10%;
     height: 5vh;
@@ -113,23 +121,22 @@ textarea {
     justify-content: center;
     margin-top: 4%;
 }
-.mot {
-    margin: 0% 1%;
-}
 p {
     width: 100%;
-    margin-left: 45%;
+    margin-left: 46%;
     margin-top: 0%;
     color: #999;
+    font-size: 15px;
 }
-/*,,,,,,,,,,,,,,,,,,,,,,end header,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/*=====================end up-right main=========================*/
 
-/*,,,,,,,,,,,,,,,,,,,,,,start main,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/*======================start main===========================*/
 main {
     width: 100%;
     height: 90vh;
     display: flex;
 }
+/* ==================start main right====================== */
 .see {
     width: 47%;
     height: 47vh;
@@ -137,35 +144,15 @@ main {
     margin-top: 8%;
     margin-left: 27%;
 }
-.mainG {
-    width: 50%;
-    min-height:90vh;
-    background-image: url(../img/twitter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .mainD {
     width: 50%;
     height: 90vh;;
 }
-.fd {
-    width: 50%;
-    height: 450px;
-    background-position: left;
-    
-}
 h1 {
     font-size: 28px;
-}    
-.join {
-    width: 90%;
-    height: 40px;
-    display: flex;
-    margin-top: 15%;
-    display: flex;
-    margin-top: 15%;
-    margin-bottom: 5%;
 }
+/* ==================start button-down====================== */
+
 .in, .upButton {
     border-radius: 20px;
     width: 97%;
@@ -186,6 +173,33 @@ h1 {
 	color: rgb(13, 159, 196);
     margin-top: 5%;
 }
+/* ==================end button-down====================== */
+
+/* ==================end main right====================== */
+
+/* ==================start main left====================== */
+.mainG {
+    width: 50%;
+    min-height:90vh;
+    background-image: url(../img/twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fd {
+    width: 50%;
+    height: 450px;
+    background-position: left;
+    
+}
+.join {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    margin-top: 15%;
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
 main> section> article {
     width: 60%;
     display: flex;
@@ -205,9 +219,11 @@ article> h2 {
 .hear, .jo{
     margin-left: 25%;
 }
-/*,,,,,,,,,,,,,,,,,,,,,,end main,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/* ==================end main left====================== */
 
-/*,,,,,,,,,,,,,,,,,,,,,,start footer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/*=======================end main============================*/
+
+/*======================start footer=========================*/
 footer {
     border: 1px solid rgb(206, 206, 214);
     width: 100%;
@@ -216,7 +232,7 @@ footer {
     justify-content: space-evenly;
     color: rgb(212, 200, 200);    
 }
-/*,,,,,,,,,,,,,,,,,,,,,,end footer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/*========================end footer=========================*/
 
 
 
