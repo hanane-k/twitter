@@ -122,11 +122,13 @@ textarea {
     margin-top: 4%;
 }
 p {
-    width: 100%;
-    margin-left: 46%;
+    /* margin-left: 46%; */
     margin-top: 0%;
     color: #999;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
 }
 /*=====================end up-right main=========================*/
 
@@ -138,18 +140,37 @@ main {
 }
 /* ==================start main right====================== */
 .see {
-    width: 47%;
-    height: 47vh;
+    max-width: 47%;
+    height: 50vh;
     text-align: left;
-    margin-top: 8%;
-    margin-left: 27%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.mainDBas {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
 }
 .mainD {
     width: 50%;
-    height: 90vh;;
+    height: 90vh;
 }
 h1 {
     font-size: 28px;
+}
+fas fa-search, fa-users, fa-comment {
+    color: white;
+}
+
+.faw {
+    width: 10%;
+    height: 5vh;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
 }
 /* ==================start button-down====================== */
 
@@ -160,6 +181,7 @@ h1 {
     border:1px solid rgb(13, 159, 196);
 
 }
+
 .upButton {
 	background: rgb(17, 172, 210);
 	color: white;
@@ -167,6 +189,9 @@ h1 {
     padding: 6px 0px; 
 }
 
+.iconoise {
+    width: 15%;
+}
 .in {
     padding: 6px 0px; 
 	background: white;
@@ -184,24 +209,29 @@ h1 {
     background-image: url(../img/twitter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .fd {
     width: 50%;
     height: 450px;
     background-position: left;
     
 }
+
 .join {
     width: 90%;
     height: 40px;
     display: flex;
     margin-top: 15%;
-    display: flex;
-    margin-top: 15%;
     margin-bottom: 5%;
 }
+
 main> section> article {
-    width: 60%;
+    width: 50%;
     display: flex;
     color: white;
     justify-content: left;
@@ -209,15 +239,9 @@ main> section> article {
     font-size: 12px;
     margin-bottom: 2%;
 }
+
 article> h2 {
     padding-left: 2%;
-}
-.follow {
-    margin-top: 35%;
-    margin-left: 25%;
-}
-.hear, .jo{
-    margin-left: 25%;
 }
 /* ==================end main left====================== */
 
