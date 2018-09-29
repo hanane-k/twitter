@@ -92,17 +92,171 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* ===========================comun class======================= */
+* {
+    font-family: arial, sans-serif;
+}
+.mot {
+    border: 1px solid lightgrey;
+    margin: 0% 1%;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 1%;
+}
+/*=======================start up-right main=========================*/
+.nassim {
+    width: 10%;
+    height: 5vh;
+    border-radius: 20px;
+    border:2px solid rgb(13, 159, 196);
+    padding: 6px 0px;
+    background-color: white;
+    color: rgb(13, 159, 196); 
+}
+.form {    
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+p {
+    /* margin-left: 46%; */
+    margin-top: 0%;
+    color: #999;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+}
+/*=====================end up-right main=========================*/
 
+/*======================start main===========================*/
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+/* ==================start main right====================== */
+.see {
+    max-width: 47%;
+    height: 50vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
 
+.mainDBas {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.mainD {
+    width: 50%;
+    height: 90vh;
+}
+h1 {
+    font-size: 28px;
+}
+fas fa-search, fa-users, fa-comment {
+    color: white;
+}
 
+.faw {
+    width: 10%;
+    height: 5vh;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
+}
+/* ==================start button-down====================== */
 
+.in, .upButton {
+    border-radius: 20px;
+    width: 97%;
+    height: 35px;
+    border:1px solid rgb(13, 159, 196);
 
+}
 
+.upButton {
+	background: rgb(17, 172, 210);
+	color: white;
+    border-radius: 20px;
+    padding: 6px 0px; 
+}
 
+.iconoise {
+    width: 15%;
+}
+.in {
+    padding: 6px 0px; 
+	background: white;
+	color: rgb(13, 159, 196);
+    margin-top: 5%;
+}
+/* ==================end button-down====================== */
+
+/* ==================end main right====================== */
+
+/* ==================start main left====================== */
+.mainG {
+    width: 50%;
+    min-height:90vh;
+    background-image: url(../img/twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fd {
+    width: 50%;
+    height: 450px;
+    background-position: left;
+    
+}
+
+.join {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+main> section> article {
+    width: 50%;
+    display: flex;
+    color: white;
+    justify-content: left;
+    text-align: start;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+
+article> h2 {
+    padding-left: 2%;
+}
+/* ==================end main left====================== */
+
+/*=======================end main============================*/
+
+/*======================start footer=========================*/
+footer {
+    border: 1px solid rgb(206, 206, 214);
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(212, 200, 200);    
+}
+/*========================end footer=========================*/
 
 
 
